@@ -18,10 +18,10 @@ class ViewController: UIViewController, UITextViewDelegate {
         textField.text = textField.text?.trimmingCharacters(in: .whitespaces)
         textFildeKidsName.text = textFildeKidsName.text?.trimmingCharacters(in: .whitespaces)
 
-//        if (textField.text != textFildeKidsName.text || textFildeKidsName.text!.isEmpty == true || textField.text!.isEmpty == true) {
-//            labelPhone.text = "  Not Allowed ❌ "
-//
-//       }
+        if (textField.text != textFildeKidsName.text || textFildeKidsName.text!.isEmpty == true || textField.text!.isEmpty == true) {
+            labelPhone.text = "  Not Allowed ❌ "
+
+       }
         
         if (textField.text == "" || textFildeKidsName.text == "") {
             labelPhone.text = "  Not Allowed ❌ "
